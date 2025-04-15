@@ -603,6 +603,22 @@ SHA1: c342eef0dd11fbec3f658baed5fca555b532fa72
 MD5sum: 447311cf9fb6eb6d3989cfee82e6a71d
 Description: Static libraries for gdbm
 
+Package: glib-cross
+Architecture: all
+Installed-Size: 81448
+Maintainer: @termux
+Version: 2.84.1
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.84.1)
+Priority: extra
+Section: main
+Filename: pool/main/g/glib-cross/glib-cross_2.84.1_all.deb
+Size: 12025532
+SHA256: a589d915590b8435a64f9d609b0dfacbb7348f1c8e4e27b7c292f50f51c4c897
+SHA1: c4889943e7ac14cef09de53bcca9b682bc703f56
+MD5sum: 37c366feedc474c89c8c186db0dff15c
+Description: glib for host (NOT for Termux)
+
 Package: gnupg
 Architecture: x86_64
 Installed-Size: 5404
@@ -2743,6 +2759,23 @@ SHA256: b7c9a1536b844c8fddc1a94aae454b8a8535d50246459dfae0095ee808528e4f
 SHA1: a132a894a7661e9544da55ec82868a88823adb45
 MD5sum: 1109659e53d889d333dcefb0aab70415
 Description: Wheels for Python ensurepip
+
+Package: python-pip
+Architecture: all
+Installed-Size: 13572
+Maintainer: @termux
+Version: 25.0.1-1
+Homepage: https://pip.pypa.io/
+Breaks: python (<< 3.11.1-1)
+Depends: clang, make, pkg-config, python (>= 3.11.1-1)
+Priority: extra
+Section: main
+Filename: pool/main/p/python-pip/python-pip_25.0.1-1_all.deb
+Size: 2607568
+SHA256: 49a1affe66fccf1b9eb614c57b6663e95b754b5b774bac603acb4c0c31240a3a
+SHA1: 6300df610e7e6e341a1586b506554038aef0d535
+MD5sum: f161f1aeb8d29c01c5fce356c8dd3a9c
+Description: The PyPA recommended tool for installing Python packages
 
 Package: python-static
 Architecture: x86_64

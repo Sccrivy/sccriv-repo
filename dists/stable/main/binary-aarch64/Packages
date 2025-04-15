@@ -454,50 +454,50 @@ Package: fontconfig
 Architecture: aarch64
 Installed-Size: 704
 Maintainer: @termux
-Version: 2.16.1
+Version: 2.16.2
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Breaks: fontconfig-dev
 Depends: freetype, libexpat, ttf-dejavu
 Replaces: fontconfig-dev
 Priority: extra
 Section: main
-Filename: pool/main/f/fontconfig/fontconfig_2.16.1_aarch64.deb
-Size: 122848
-SHA256: 62a5c01606ebb0721f97d3a7d2598f520f825e8fe9ff75f9f38c5703535f5817
-SHA1: 33d039d1a6dab42f55da144b17d8d71a32e0ab59
-MD5sum: f9fd751888f047a60b68a8f0713e3d39
+Filename: pool/main/f/fontconfig/fontconfig_2.16.2_aarch64.deb
+Size: 122568
+SHA256: 9ad08698a31031cc59f300c18a2652c46cb5ddf80725aa2465b78187d2ba7842
+SHA1: 365db26a60770170f58851f1e505f9a50a81d894
+MD5sum: 6eb4e11709e5a25e4aa809fed6c6af37
 Description: Library for configuring and customizing font access
 
 Package: fontconfig-static
 Architecture: aarch64
 Installed-Size: 520
 Maintainer: @termux
-Version: 2.16.1
+Version: 2.16.2
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
-Depends: fontconfig (= 2.16.1)
+Depends: fontconfig (= 2.16.2)
 Priority: extra
 Section: main
-Filename: pool/main/f/fontconfig-static/fontconfig-static_2.16.1_aarch64.deb
-Size: 117736
-SHA256: 91394139bc0fec811d9b72066a08fd8b258d5280232d580bdb9db94871484999
-SHA1: b66e071c30073f257d0268e89be4fae2a34d31e3
-MD5sum: fc6f12381c6b4a245545a62702fe2eb8
+Filename: pool/main/f/fontconfig-static/fontconfig-static_2.16.2_aarch64.deb
+Size: 117708
+SHA256: 4a731fafe9a27e50c145da2aa57ba0d8c6f07868e8d0d2c23922edad5424ada4
+SHA1: 3b3ecfdecf38aab854aaa9a2d36c924094c81190
+MD5sum: 6209be038c5c0340c1307e578068d99c
 Description: Static libraries for fontconfig
 
 Package: fontconfig-utils
 Architecture: aarch64
 Installed-Size: 128
 Maintainer: @termux
-Version: 2.16.1
+Version: 2.16.2
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
-Depends: fontconfig (= 2.16.1)
+Depends: fontconfig (= 2.16.2)
 Priority: extra
 Section: main
-Filename: pool/main/f/fontconfig-utils/fontconfig-utils_2.16.1_aarch64.deb
-Size: 14448
-SHA256: 0a589b192b8f1d88b3ec64664d9a4c28265bb0408726027195d489d576fda481
-SHA1: 245a34b6f1ad9d2781647768dc6982b23d837b7a
-MD5sum: 2382e8730aeb408205b24d5b80c9b06a
+Filename: pool/main/f/fontconfig-utils/fontconfig-utils_2.16.2_aarch64.deb
+Size: 14388
+SHA256: 4f975205733dc0193c7e6320aa51bcd4c74cca39679af65a39c5878126283bd9
+SHA1: 9dc0b2ea0d8718663173a822f85e8e7c4bcc4f77
+MD5sum: 1aa0e3754e6bb9a67260bf4b2f458f2d
 Description: Fontconfig binaries
 
 Package: freetype
@@ -602,6 +602,56 @@ SHA256: b79009cad09e375aaf9d0d2eca1b790878a7bb05fada66fb7977a47224ce2b24
 SHA1: f1f02e90b2e6505e4c710cf2e899110f7d80e59a
 MD5sum: 7d3cd28bb60844d128b7670bcef7dae3
 Description: Static libraries for gdbm
+
+Package: glib
+Architecture: aarch64
+Installed-Size: 20224
+Maintainer: @termux
+Version: 2.84.1
+Homepage: https://developer.gnome.org/glib/
+Breaks: glib-dev
+Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib
+Replaces: glib-dev
+Priority: extra
+Section: main
+Filename: pool/main/g/glib/glib_2.84.1_aarch64.deb
+Size: 2374800
+SHA256: 66e99b68b297f23e278602091c9e7280d9d34c99a1e5fcbe6d43fec815cf02d5
+SHA1: 3a3ad5584c6ab3abcea72e62c038eb111e70c265
+MD5sum: 1b47a4bca4cd8327c004f20bde3c0434
+Description: Library providing core building blocks for libraries and applications written in C
+
+Package: glib-bin
+Architecture: aarch64
+Installed-Size: 764
+Maintainer: @termux
+Version: 2.84.1
+Homepage: https://developer.gnome.org/glib/
+Depends: python, glib (= 2.84.1)
+Priority: extra
+Section: main
+Filename: pool/main/g/glib-bin/glib-bin_2.84.1_aarch64.deb
+Size: 203112
+SHA256: 269348bf215a94c19d4bdc6a2ae0fe921722803dbe98c332f7d42d1bfbb84b63
+SHA1: 0531f4cefe22a4f7821cf72f0c2c1e5a5e57dd83
+MD5sum: 5b2525c63e6f4065256d8f002127c927
+Description: Programs for the GLib library
+
+Package: glib-cross
+Architecture: all
+Installed-Size: 81448
+Maintainer: @termux
+Version: 2.84.1
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.84.1)
+Priority: extra
+Section: main
+Filename: pool/main/g/glib-cross/glib-cross_2.84.1_all.deb
+Size: 12025532
+SHA256: a589d915590b8435a64f9d609b0dfacbb7348f1c8e4e27b7c292f50f51c4c897
+SHA1: c4889943e7ac14cef09de53bcca9b682bc703f56
+MD5sum: 37c366feedc474c89c8c186db0dff15c
+Description: glib for host (NOT for Termux)
 
 Package: gnupg
 Architecture: aarch64
@@ -2653,6 +2703,22 @@ SHA1: 492bb83f9d9bde269b963b89c0ab13f2950b09f4
 MD5sum: 0933392e6e6c557e8562df7bdc643d2a
 Description: Dialog allowing secure password entry
 
+Package: pkg-config
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: @termux
+Version: 0.29.2-2
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+Depends: glib
+Priority: extra
+Section: main
+Filename: pool/main/p/pkg-config/pkg-config_0.29.2-2_aarch64.deb
+Size: 32760
+SHA256: 3d94fb6a0c9351654db74d52a38448f6a42ad035a96a0436f10558834af4e21d
+SHA1: e964a4967dc45d07b2902ebf9849cfc5f3e9cb23
+MD5sum: ac4659881df463ba40d901e308a5f121
+Description: Helper tool used when compiling applications and libraries
+
 Package: procps
 Architecture: aarch64
 Installed-Size: 684
@@ -2743,6 +2809,23 @@ SHA256: b7c9a1536b844c8fddc1a94aae454b8a8535d50246459dfae0095ee808528e4f
 SHA1: a132a894a7661e9544da55ec82868a88823adb45
 MD5sum: 1109659e53d889d333dcefb0aab70415
 Description: Wheels for Python ensurepip
+
+Package: python-pip
+Architecture: all
+Installed-Size: 13572
+Maintainer: @termux
+Version: 25.0.1-1
+Homepage: https://pip.pypa.io/
+Breaks: python (<< 3.11.1-1)
+Depends: clang, make, pkg-config, python (>= 3.11.1-1)
+Priority: extra
+Section: main
+Filename: pool/main/p/python-pip/python-pip_25.0.1-1_all.deb
+Size: 2607568
+SHA256: 49a1affe66fccf1b9eb614c57b6663e95b754b5b774bac603acb4c0c31240a3a
+SHA1: 6300df610e7e6e341a1586b506554038aef0d535
+MD5sum: f161f1aeb8d29c01c5fce356c8dd3a9c
+Description: The PyPA recommended tool for installing Python packages
 
 Package: python-static
 Architecture: aarch64
